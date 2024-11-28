@@ -18,7 +18,7 @@ A showcase of my projects and technical skills.
 
 ## Live Demo
 
-Hosted via GitHub Pages
+[Personal Portfolio](https://kyworn.github.io)
 
 ## 🚀 Project Highlights
 
