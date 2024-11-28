@@ -1,25 +1,57 @@
 # Personal GitHub Portfolio
 
-## Description
-This dynamic website displays my projects from a local JSON file, with custom formatting and presentation.
+A showcase of my projects and technical skills.
 
-## Features
+## 🌟 Features
+
 - Loading projects from `projects.json`
 - Dynamic project name formatting
 - Responsive design
 - Links to repositories and live sites (when available)
 
-## Technologies Used
+## Technologies
+
 - HTML5
 - CSS3
 - JavaScript (Fetch API)
 - JSON
 
-## Configuration
-To customize:
-1. Modify `projects.json` to add/edit projects
-2. Adjust styles in `styles.css`
-3. Customize formatting in `script.js`
+## Live Demo
 
-## Deployment
 Hosted via GitHub Pages
+
+## 🚀 Project Highlights
+
+- Dynamic project rendering
+- Clean, minimalist design
+- Easy navigation
+
+## 🤔 Why This Portfolio?
+
+- 📊 Showcase of personal projects
+- 🔍 Transparent skill representation
+- 💻 Tech enthusiast's playground
+- 💯 100% Open Source
+
+## 🌈 Projects
+
+Check out the detailed list of projects in the `projects.json` file.
+
+## 🌟 Contribution
+
+Contributions are welcome! 
+- Fork the repository
+- Create your feature branch
+- Commit your changes
+- Push to the branch
+- Create a Pull Request
+
+## 📜 License
+
+MIT License
+
+---
+
+**Made with ❤️ by a Tech Enthusiast**
+
+[![GitHub stars](https://img.shields.io/github/stars/kyworn/kyworn.github.io.svg?style=social&label=Star)](https://github.com/kyworn/kyworn.github.io)
