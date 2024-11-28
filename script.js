@@ -34,8 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `).join('');
 
-            console.log(`${projects.length} projects displayed`);
-
         } catch (error) {
             console.error('Error loading projects:', error);
             projectsContainer.innerHTML = `
