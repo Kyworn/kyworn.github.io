@@ -3,8 +3,11 @@
 
 ---
 
-> Architecte de solutions techniques avec une méthodologie de prototypage rapide via le pilotage avancé d'IA. Mon expertise se concentre sur la conception et la livraison de solutions robustes, de l'infrastructure jusqu'à l'application finale. Vous trouverez ci-dessous une sélection de projets qui illustrent cette démarche.
-
+```
+Architecte de solutions techniques avec une méthodologie de prototypage rapide via le pilotage avancé d'IA. 
+Mon expertise se concentre sur la conception et la livraison de solutions robustes, de l'infrastructure jusqu'à l'application finale. 
+Vous trouverez ci-dessous une sélection de projets qui illustrent cette démarche.
+```
 ---
 
 ## 🚀 Projets Majeurs
