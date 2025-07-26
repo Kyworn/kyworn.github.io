@@ -1,21 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyworn - GitHub Projects</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio - Idriss Messaoud</title>
 </head>
 <body>
+
     <div class="container">
+
         <header>
-            <h1>🚀 <span>GitHub Projects</span></h1>
+            <h1>Idriss Messaoud</h1>
+            <h2>Spécialiste en Automatisation & Pilote de Projets IA</h2>
         </header>
-        <main id="projects-container">
-            <!-- Projects will be loaded dynamically here -->
+
+        <div class="manifesto">
+            <p>Architecte de solutions techniques avec une méthodologie de prototypage rapide via le pilotage avancé d'IA. Mon expertise se concentre sur la conception et la livraison de solutions robustes, de l'infrastructure jusqu'à l'application finale. Vous trouverez ci-dessous une sélection de projets qui illustrent cette démarche.</p>
+        </div>
+
+        <main>
+            <h2 class="section-title">> Projets Majeurs</h2>
+
+            <div class="project-grid">
+
+                <!-- Projet 1: Panneau d'Admin WoW -->
+                <div class="project-card">
+                    <h3>🚀 Panneau d'Administration pour Serveur de Jeu AzerothCore</h3>
+                    <div class="placeholder-image"><span>[ Capture d'écran de l'interface du panneau d'administration ]</span></div>
+                    <p>Un projet full-stack conçu pour simplifier et automatiser la gestion d'un serveur de jeu World of Warcraft pour une petite communauté. L'application inclut la gestion des comptes, le contrôle du serveur (start/stop) et une console web pour l'envoi de commandes en temps réel.</p>
+                    <p class="tech-list">Challenge Technique Notable :</p>
+                    <p>Pour assurer une création de comptes sécurisée et compatible, j'ai dû analyser et ré-implémenter en Python l'algorithme de hashage de mot de passe **SRP6** utilisé par le client du jeu, garantissant ainsi l'intégrité de l'authentification.</p>
+                    <div class="tech-badges">
+                        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                        <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+                        <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy">
+                        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+                        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+                        <img src="https://img.shields.io/badge/Tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white" alt="Tmux">
+                    </div>
+                </div>
+
+                <!-- Projet 2: Qualité de l'Eau -->
+                <div class="project-card">
+                    <h3>💧 Application de Visualisation de la Qualité de l'Eau</h3>
+                    <div class="placeholder-image"><span>[ Capture d'écran du site affichant les résultats pour une commune ]</span></div>
+                    <p>Une application web de data-visualisation permettant de consulter la qualité de l'eau potable en France. Ce projet a été prototypé et développé rapidement en pilotant une IA.</p>
+                    <p class="tech-list">Challenge Technique Notable :</p>
+                    <p>Le cœur du projet réside dans sa logique de traitement de données : parsing de réponses JSON complexes de l'API gouvernementale **Hub'Eau**, transformation (code postal vers code INSEE) et mise en place d'une **stratégie de caching avancée** pour optimiser drastiquement les temps de réponse.</p>
+                     <div class="tech-badges">
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+                        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+                        <img src="https://img.shields.io/badge/API-Rest-orange?style=for-the-badge" alt="API">
+                        <img src="https://img.shields.io/badge/Cache-Strategy-blue?style=for-the-badge" alt="Cache">
+                    </div>
+                </div>
+                
+                <!-- Projet 3: Arch Power Manager -->
+                <div class="project-card">
+                    <h3>⚡ Arch Power Manager (Application de Bureau)</h3>
+                    <div class="placeholder-image"><span>[ Capture d'écran de l'interface de l'application ]</span></div>
+                    <p>Une suite d'outils pour simplifier et automatiser la gestion des profils de performance (CPU/GPU) sur un laptop Arch Linux, composée de scripts Bash et d'une application de bureau multi-plateforme.</p>
+                    <p class="tech-list">Challenge Technique Notable :</p>
+                    <p>Gestion du cycle de vie complet du projet, de la conception de l'UI jusqu'au packaging de l'application **Electron** en un fichier `.pacman` natif, en passant par la gestion des permissions `sudo` et la communication sécurisée entre le frontend et le backend.</p>
+                     <div class="tech-badges">
+                        <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron">
+                        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+                        <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash">
+                        <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux">
+                    </div>
+                </div>
+
+            </div>
         </main>
+
+        <footer>
+            <a href="mailto:contact@zorko.xyz">Email</a>
+            <a href="https://linkedin.com/in/zidm" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Kyworn" target="_blank">GitHub</a>
+        </footer>
+
     </div>
-    <script src="script.js"></script>
+
 </body>
 </html>
